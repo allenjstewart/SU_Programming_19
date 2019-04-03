@@ -2,7 +2,7 @@
 #It has tremendous functionality and a large amount of documentation
 #You should be able to plot anything you want with MatPlotLib
 
-import matplotlib.pyplot as plot
+import matplotlib.pyplot as plt
 
 #Since MatPlotLib is a numerical plotter it is nice to have use of arrays
 import numpy as np
