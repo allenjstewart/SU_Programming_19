@@ -3,7 +3,7 @@
 #I have purposely introduced an error(s) into the code
 #The Purpose of this code is to practice debugging some common errors
 #I would like you to find the error and correct it
-#Be sure to commit any corrections into your own personal folder
+#Be sure to commit an corrections into your own personal folder
 
 import math as m
 import numpy as np
@@ -16,21 +16,12 @@ def function(y,t):
 	return dy
 
 def euler(t0,y0,n,tfinal):
-	dt=(tfinal-t0)/n
-	y=np.array([])
-	t=np.array([])
-	y = np.append(y,y0)
-	t = np.append(t,t0)
-	for i in range (0,n):
-		t = np.append(t,(i+1)*dt)
-		y = np.append(y,y[i]+function(y[i],t[i])*dt)
-	plt.plot(t,y)
-	plt.show()
-    #return plt.plot(t,y)
-
-
-def main():
-	euler(2,3,10,5)
-
-if __name__ == '__main__':
-	main()
+    dt=(tfinal-t0)/n
+    y=[]
+    t=[]
+    y.insert(0,y0)
+    t.insert(0,t0)
+    for i in range (0,n):
+        t.insert(0,(i+1)*dt)
+        y.insert(0,y[i]+function(y[i],t[i])*dt)
+    return plt.plot(t,y)
