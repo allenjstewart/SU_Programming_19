@@ -1,5 +1,5 @@
 allenjstewartSchedule={'Monday':{'12PM-3PM':True},'Tuesday':{'10:30AM-12:30PM':True},'Wednesday':{'11AM-12PM':True},'Thursday':{'10:30AM-12PM':True,'2PM-3PM':True}}
-christinelindcoleSchedule={}
+christinelindcoleSchedule={'Monday':{'10:00AM-11:30AM':True},'Tuesday':{'3:40PM-5:00PM':True},'Wednesday':{'10:00AM-11:30AM':True},'Thursday':{'11:30AM-12:30PM':True},'Friday':{'10:00AM-11:30AM':True, '3:45PM-5:00PM':True}}
 stevenrkleeSchedule={}
 brianfischerSchedule={}
 bergeyheatherSchedule={'Monday':{'9AM-12:30PM':True,'2PM-4:30PM':True},'Tuesday':{'12:30PM-1:30PM':True},'Wednesday':{'2PM-4:30PM':True},'Thursday':{'12:30PM-1:30PM':True},'Friday':{'2PM-4:30PM':True}}
